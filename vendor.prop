@@ -11,3 +11,6 @@ ro.surface_flinger.set_touch_timer_ms=4000
 
 # WiFi
 wifi.direct.interface=p2p-dev-wlan0
+
+# RIL
+ro.telephony.default_network=26,9
