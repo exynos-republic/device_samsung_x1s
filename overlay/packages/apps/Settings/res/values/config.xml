@@ -21,4 +21,7 @@
 <resources>
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">160</integer>
+    
+    <!-- Whether to show the Preference for Touch Sensitivity -->
+    <bool name="config_show_touch_sensitivity">true</bool>
 </resources>

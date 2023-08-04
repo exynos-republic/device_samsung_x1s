@@ -54,6 +54,10 @@ PRODUCT_PACKAGES += \
     wifi_sec.rc \
     WifiOverlay
 
+# Init scripts
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ramdisk/etc/init/init.x1s.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.x1s.rc
+
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(DEVICE_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
