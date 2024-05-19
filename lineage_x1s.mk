@@ -34,6 +34,8 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
+TARGE_BUILD_LINEAGEHW := false
+
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=x1sxxx \
