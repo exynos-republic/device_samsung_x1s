@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    package="org.lineageos.aperture.overlay.x1s">
+    <overlay android:targetPackage="org.lineageos.aperture" android:isStatic="true" />
+</manifest>
