@@ -37,6 +37,11 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     ApertureOverlayX1s
 
+# PixelApps rro_overlays
+PRODUCT_PACKAGES += \
+    SettingsGoogleOverlayX1s \
+    SystemUIGoogleOverlayX1s
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf

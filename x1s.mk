@@ -34,3 +34,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Need bigger partition for GMS
 WITH_GMS := true
+
+# PixelApps
+TARGET_PREBUILT_PIXELAPPS := true

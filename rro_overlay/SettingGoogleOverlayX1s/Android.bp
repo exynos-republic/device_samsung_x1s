@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "SettingsGoogleOverlayX1s",
+    certificate: "platform",
+    sdk_version: "current",
+    product_specific: true
+}
